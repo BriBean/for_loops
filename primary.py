@@ -5,8 +5,8 @@
 
 # ---------- Part 1 | Basic for Loops ---------- #
 print(
-    '>> Section 1\n'
-    '>> Part 1\n'
+  #  '>> Section 1\n'
+   # '>> Part 1\n'
 )
 
 # For the following for Loops, use in range(n), where n is the number of times ran.
@@ -24,7 +24,9 @@ print(
 #   elia
 #
 # Write Code Below #
-
+print('SECTION 1, PART 1')
+for i in range(5):
+    print('brianna')
 
 # 2 - for Loop | Printing i
 #   a. Create a for loop that runs 5 times.
@@ -39,7 +41,8 @@ print(
 #   4
 #
 # Write Code Below #
-
+for i in range(5):
+    print(i)
 
 # 3 - for Loop | Running According to the User
 #   a. Prompt the user for input in the form of an integer. Save it to a variable. This will be used as the argument
@@ -59,12 +62,14 @@ print(
 #   $$$$$$
 #
 # Write Code Below #
-
+a = input('enter a number: ')
+for i in range(11):
+    print('!' * i)
 
 # ---------- Part 2 | Direct Access ---------- #
 print(
-    '\n\n>> Section 1\n'
-    '>> Part 2\n'
+  #  '\n\n>> Section 1\n'
+   # '>> Part 2\n'
 )
 
 # For the following for Loops, use direct access.
@@ -82,7 +87,10 @@ print(
 #   a
 #
 # Write Code Below #
-
+print('SECTION 1, PART 2')
+name = 'brianna'
+for i in range(len(name)):
+    print(name[i])
 
 # 2 - for Loop | Printing the User's Name
 #   a. Prompt input from the user in the form of their name. Save to a variable named name.
@@ -105,12 +113,14 @@ print(
 #   e
 #
 # Write Code Below #
-
+name = input('enter your name: ')
+for i in range(len(name)):
+    print(name[i])
 
 # ---------- Part 3 | range() variations ---------- #
 print(
-    '\n\n>> Section 1\n'
-    '>> Part 3\n'
+   # '\n\n>> Section 1\n'
+   # '>> Part 3\n'
 )
 
 # range(stop)
@@ -142,7 +152,9 @@ print(
 #   24
 #
 # Write Code Below #
-
+print('SECTION 1, PART 3')
+for i in range(10, 25):
+    print(i)
 
 # 2 - for Loop | Custom Step
 #   a. Create a for loop that runs from 5 to -5.
@@ -162,4 +174,5 @@ print(
 #   -4
 #
 # Write Code Below #
-
+for i in range(5, -5, -1):
+    print(i)
